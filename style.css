@@ -1,0 +1,18 @@
+body
+{
+	background-color: rgb(200,200,200);
+	font-family: Tahoma, 'Geneva', sans-serif;
+}
+.box
+{
+	background-color: rgb(190,190,190);
+	border-radius: 5px;
+	padding: 5px;
+	max-width: 500px;
+	margin: 30px auto; /*Die px gibt den Abstand von oben an*/
+	border: 5px solid rgb(200,200,200);
+}
+.box h1
+{
+	margin: 0px;
+}

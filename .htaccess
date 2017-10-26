@@ -1,0 +1,11 @@
+RewriteEngine On
+# RewriteRule ^(submit)/?$ submit.php [L]
+RewriteRule ^([A-Za-z0-9-]+)/?$ index.php?shortlink=$1 [L]
+
+
+###########################################################
+
+
+# Essentially, the third line takes in a URL, such as http://example.com/d9gka, grabs the string after the .com, and sends it to the process.php file as a GET request to be processed. This all happens behind the scenes, and is transparent to the user.
+
+# The second line is an exception to this rule, that allows us to hit a script (in this case submit.php) to generate short URLs.
